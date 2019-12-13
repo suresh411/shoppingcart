@@ -78,7 +78,7 @@ export class ProductsService {
     signIn(){
         this.http.post(this.signinUrl,
             {
-                email:'kvarma063@gmail.om',
+                email:'kvarma063@gmail.com',
                 password:'testing123',
                 returnSecureToken:true
             }).subscribe(
